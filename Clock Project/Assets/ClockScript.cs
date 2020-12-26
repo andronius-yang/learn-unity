@@ -36,5 +36,4 @@ public class ClockScript : MonoBehaviour
         minutesTransform.localRotation   = Quaternion.Euler(0f, curr.Minute * degreesPerMinute, 0f);
         secondsTransform.localRotation   = Quaternion.Euler(0f, curr.Second * degreesPerSecond, 0f);
     }
-    //test commit
 }
